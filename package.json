@@ -1,0 +1,45 @@
+{
+  "name": "worktodo",
+  "version": "1.0.0",
+  "description": "解决工作时待办事项管理的命令行小工具",
+  "bin": {
+    "todo": "./bin/todo.js"
+  },
+  "keyword": [
+    "todo",
+    "cli",
+    "nodejs",
+    "typescript"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Runtu4378/workTodo.git"
+  },
+  "authors": [
+    "runtu <huorunquan@gmail.com> (https://github.com/Runtu4378)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Runtu4378/workTodo/issues"
+  },
+  "files": [
+    "bin",
+    "data",
+    "dist"
+  ],
+  "homepage": "https://github.com/Runtu4378/workTodo#readme",
+  "dependencies": {
+    "clipboardy": "^1.2.3",
+    "log4js": "^2.5.3",
+    "moment": "^2.22.1",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^9.6.6",
+    "typescript": "^2.8.3"
+  }
+}
